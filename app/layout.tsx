@@ -103,7 +103,7 @@ export default function RootLayout({
               <div>
                 <h3 className="font-semibold mb-4">Empresa</h3>
                 <ul className="space-y-2">
-                  <li><Link href="/#about" className="text-muted-foreground hover:text-primary">Sobre Nosotros</Link></li>
+                  <li><Link href="/about" className="text-muted-foreground hover:text-primary">Sobre Nosotros</Link></li>
                   <li><Link href="/#contact" className="text-muted-foreground hover:text-primary">Contacto</Link></li>
                   <li><Link href="/blog" className="text-muted-foreground hover:text-primary">Blog</Link></li>
                   <li><Link href="/#careers" className="text-muted-foreground hover:text-primary">Carreras</Link></li>
