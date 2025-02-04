@@ -17,6 +17,7 @@ import {
   Zap,
   MessageSquare
 } from "lucide-react";
+import Link from "next/link";
 
 const MotionCard = motion(Card);
 
@@ -81,7 +82,7 @@ export default function HomeContent() {
       </section>
 
       {/* Features Section */}
-      <section className="py-24 bg-secondary/50">
+      <section id="features" className="py-24 bg-secondary/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Características Principales</h2>
@@ -135,7 +136,7 @@ export default function HomeContent() {
       </section>
 
       {/* How it Works Section */}
-      <section className="py-24 bg-background">
+      <section id="how-it-works" className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">¿Cómo Funciona?</h2>
@@ -196,7 +197,7 @@ export default function HomeContent() {
       </section>
 
       {/* GuardBot AI Section */}
-      <section className="py-24 bg-secondary/50">
+      <section id="guardbot" className="py-24 bg-secondary/50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
@@ -223,7 +224,7 @@ export default function HomeContent() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-24 bg-background">
+      <section id="pricing" className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Planes y Precios</h2>
@@ -296,7 +297,7 @@ export default function HomeContent() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-secondary/50">
+      <section id="testimonials" className="py-24 bg-secondary/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Lo que dicen nuestros clientes</h2>
@@ -343,7 +344,7 @@ export default function HomeContent() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24">
+      <section id="contact" className="py-24">
         <div className="container mx-auto px-4">
           <div className="bg-primary text-primary-foreground rounded-2xl p-12 text-center relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/50 to-primary pointer-events-none"></div>

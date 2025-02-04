@@ -112,9 +112,10 @@ export default function RootLayout({
               <div>
                 <h3 className="font-semibold mb-4">Legal</h3>
                 <ul className="space-y-2">
-                  <li><Link href="/#privacy" className="text-muted-foreground hover:text-primary">Privacidad</Link></li>
-                  <li><Link href="/#terms" className="text-muted-foreground hover:text-primary">Términos</Link></li>
-                  <li><Link href="/#security" className="text-muted-foreground hover:text-primary">Seguridad</Link></li>
+                  <li><Link href="/privacy" className="text-muted-foreground hover:text-primary">Privacidad</Link></li>
+                  <li><Link href="/terms" className="text-muted-foreground hover:text-primary">Términos</Link></li>
+                  <li><Link href="/cookies" className="text-muted-foreground hover:text-primary">Cookies</Link></li>
+                  <li><Link href="/security" className="text-muted-foreground hover:text-primary">Seguridad</Link></li>
                 </ul>
               </div>
             </div>
